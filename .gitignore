@@ -1,5 +1,15 @@
+# Dependencias de Vue.js
 node_modules/
-.env
 dist/
-build/
-.DS_Store 
+local.env
+
+# Archivos de ASP.NET Core (.NET)
+**/bin/
+**/obj/
+**/.vs/
+*.user
+*.suo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
